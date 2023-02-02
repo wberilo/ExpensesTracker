@@ -13,17 +13,17 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Date" class="control-label"></label>
+                <label asp-for="Date" class="control-label">Date</label>
                 <input asp-for="Date" class="form-control" />
                 <span asp-validation-for="Date" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PlaceOfPurchase" class="control-label"></label>
+                <label asp-for="PlaceOfPurchase" class="control-label">Place of purchase</label>
                 <input asp-for="PlaceOfPurchase" class="form-control" />
                 <span asp-validation-for="PlaceOfPurchase" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AmountIncludingVAT" class="control-label"></label>
+                <label asp-for="AmountIncludingVAT" class="control-label">Amount including VAT</label>
                 <input asp-for="AmountIncludingVAT" class="form-control" />
                 <span asp-validation-for="AmountIncludingVAT" class="text-danger"></span>
             </div>
